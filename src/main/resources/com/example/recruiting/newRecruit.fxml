@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #59724B;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.recruiting.NewRecruitController">
+   <children>
+      <AnchorPane layoutY="82.0" prefHeight="318.0" prefWidth="600.0" style="-fx-background-color: #FFFFFF;">
+         <children>
+            <Label fx:id="introLabel" layoutX="197.0" layoutY="21.0" prefHeight="26.0" prefWidth="206.0" text="Регистрация призывника">
+               <font>
+                  <Font name="System Italic" size="17.0" />
+               </font>
+            </Label>
+            <TextField fx:id="nameField" layoutX="192.0" layoutY="62.0" prefHeight="26.0" prefWidth="216.0" promptText="ФИО" />
+            <ComboBox fx:id="categoryBox" layoutX="219.0" layoutY="194.0" prefHeight="26.0" prefWidth="161.0" promptText="Категория" />
+            <ComboBox fx:id="militaryBox" layoutX="219.0" layoutY="228.0" prefHeight="26.0" prefWidth="161.0" promptText="Род войск" />
+            <Button fx:id="addBtn" layoutX="266.0" layoutY="268.0" mnemonicParsing="false" text="Добавить" />
+            <TextField fx:id="passField" layoutX="192.0" layoutY="92.0" prefHeight="26.0" prefWidth="216.0" promptText="Серия и номер паспорта" />
+            <TextField fx:id="loginField" layoutX="192.0" layoutY="122.0" prefHeight="26.0" prefWidth="216.0" promptText="Логин" />
+            <PasswordField fx:id="passwordField" layoutX="192.0" layoutY="151.0" prefHeight="26.0" prefWidth="216.0" promptText="Пароль" />
+         </children>
+      </AnchorPane>
+      <Label layoutX="8.0" layoutY="4.0" prefHeight="74.0" prefWidth="600.0" text="Система автоматизации работы призывного пункта" textAlignment="CENTER" textFill="#e7ffd6" wrapText="true">
+         <font>
+            <Font name="System Bold Italic" size="21.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
